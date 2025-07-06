@@ -1,0 +1,1 @@
+This pack adds vertical variants of every vanilla slab in Minecraft. The blocks all have default break tools, break speeds, sounds, and some have custom behaviors. The cut copper vertical slabs oxidize, and can be waxed and scraped. All vertical slabs also have recipes to be crafted back into full blocks and I am working on adding double slab functionality. 
