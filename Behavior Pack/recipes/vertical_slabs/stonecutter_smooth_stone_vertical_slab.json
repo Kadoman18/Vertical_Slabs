@@ -1,0 +1,16 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "kado:stonecutter_smooth_stone_vertical_slab"
+		},
+		"tags": ["stonecutter"],
+		"priority": 0,
+		"ingredients": [{ "item": "minecraft:smooth_stone" }],
+		"result": {
+			"item": "kado:smooth_stone_vertical_slab",
+			"count": 2
+		},
+		"group": "vertical_slabs"
+	}
+}

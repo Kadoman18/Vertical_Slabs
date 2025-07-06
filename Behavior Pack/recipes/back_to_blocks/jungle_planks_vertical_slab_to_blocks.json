@@ -1,0 +1,18 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:jungle_planks_vertical_slab_to_blocks"
+		},
+		"tags": ["crafting_table"],
+		"priority": 1,
+		"pattern": ["#", "#"],
+		"key": {
+			"#": {
+				"item": "kado:jungle_planks_vertical_slab"
+			}
+		},
+		"result": { "item": "minecraft:jungle_planks" },
+		"group": "vertical_slabs_to_blocks"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "kado:stonecutter_tuff_brick_vertical_slab"
+		},
+		"tags": ["stonecutter"],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:tuff_bricks"
+			}
+		],
+		"result": {
+			"item": "kado:tuff_brick_vertical_slab",
+			"count": 2
+		},
+		"group": "vertical_slabs"
+	}
+}

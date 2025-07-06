@@ -1,0 +1,8 @@
+[Scripting][warning]-Copper Slabs script loaded!
+
+[Scripting][error]-InvalidArgumentError: Unexpected type passed to function argument [0]. Expected type: number    at onPlayerInteract (copper_behavior.js:63)
+
+
+
+
+

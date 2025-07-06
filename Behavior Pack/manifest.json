@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Kadoman's Vertical Slabs (BP)",
+		"description": "Kadomans Vertical Slabs pack, complete with 'back to blocks' functionality",
+		"uuid": "8687201a-06f6-41f0-a1a1-805d0072002e",
+		"version": [3, 1, 0],
+		"min_engine_version": [1, 21, 0]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"description": "Attempting to add script for copper behaviors.",
+			"uuid": "aaac63b0-bf87-4153-97c3-f6bd5767cc74",
+			"version": [3, 1, 0]
+		},
+		{
+			"type": "script",
+			"uuid": "739d2dfe-2382-4462-abb9-f56ac62fec45",
+			"version": [1, 1, 15],
+			"language": "javascript",
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "c8201159-7e72-454f-bc16-aba10d67b869",
+			"version": [3, 0, 4]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.0.0"
+		}
+	],
+	"metadata": { "authors": ["kadoman"] }
+}

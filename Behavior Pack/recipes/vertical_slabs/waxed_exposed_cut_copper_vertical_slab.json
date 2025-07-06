@@ -1,0 +1,17 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:waxed_exposed_cut_copper_vertical_slab"
+		},
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"pattern": ["#", "#", "#"],
+		"key": { "#": { "item": "minecraft:waxed_exposed_cut_copper" } },
+		"result": {
+			"item": "kado:waxed_exposed_cut_copper_vertical_slab",
+			"count": 6
+		},
+		"group": "vertical_slabs"
+	}
+}

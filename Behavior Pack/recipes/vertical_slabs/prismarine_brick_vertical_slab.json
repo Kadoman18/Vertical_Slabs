@@ -1,0 +1,15 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:recipe_shaped": {
+		"description": { "identifier": "kado:prismarine_brick_vertical_slab" },
+		"tags": ["crafting_table"],
+		"priority": 0,
+		"pattern": ["#", "#", "#"],
+		"key": { "#": { "item": "minecraft:prismarine_bricks" } },
+		"result": {
+			"item": "kado:prismarine_brick_vertical_slab",
+			"count": 6
+		},
+		"group": "vertical_slabs"
+	}
+}

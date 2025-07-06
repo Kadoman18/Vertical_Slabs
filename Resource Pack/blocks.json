@@ -1,0 +1,165 @@
+{
+	"format_version": "1.21.40",
+	"kado:polished_andesite_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:andesite_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:polished_blackstone_brick_vertical_slab": {
+		"sound": "nether_brick"
+	},
+	"kado:polished_blackstone_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:blackstone_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:brick_vertical_slab": {
+		"sound": "nether_brick"
+	},
+	"kado:exposed_cut_copper_vertical_slab": {
+		"sound": "copper"
+	},
+	"kado:waxed_exposed_cut_copper_vertical_slab": {
+		"sound": "copper"
+	},
+	"kado:oxidized_cut_copper_vertical_slab": {
+		"sound": "copper"
+	},
+	"kado:waxed_oxidized_cut_copper_vertical_slab": {
+		"sound": "copper"
+	},
+	"kado:cut_copper_vertical_slab": {
+		"sound": "copper"
+	},
+	"kado:waxed_cut_copper_vertical_slab": {
+		"sound": "copper"
+	},
+	"kado:weathered_cut_copper_vertical_slab": {
+		"sound": "copper"
+	},
+	"kado:waxed_weathered_cut_copper_vertical_slab": {
+		"sound": "copper"
+	},
+	"kado:deepslate_brick_vertical_slab": {
+		"sound": "deepslate_bricks"
+	},
+	"kado:cobbled_deepslate_vertical_slab": {
+		"sound": "deepslate"
+	},
+	"kado:polished_deepslate_vertical_slab": {
+		"sound": "deepslate"
+	},
+	"kado:deepslate_tiles_vertical_slab": {
+		"sound": "deepslate_bricks"
+	},
+	"kado:polished_diorite_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:diorite_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:end_brick_vertical_slab": {
+		"sound": "nether_brick"
+	},
+	"kado:polished_granite_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:granite_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:mud_brick_vertical_slab": {
+		"sound": "mud_bricks"
+	},
+	"kado:netherbrick_vertical_slab": {
+		"sound": "nether_brick"
+	},
+	"kado:acacia_planks_vertical_slab": {
+		"sound": "wood"
+	},
+	"kado:birch_planks_vertical_slab": {
+		"sound": "wood"
+	},
+	"kado:crimson_planks_vertical_slab": {
+		"sound": "nether_wood"
+	},
+	"kado:dark_oak_planks_vertical_slab": {
+		"sound": "wood"
+	},
+	"kado:jungle_planks_vertical_slab": {
+		"sound": "wood"
+	},
+	"kado:mangrove_planks_vertical_slab": {
+		"sound": "wood"
+	},
+	"kado:oak_planks_vertical_slab": {
+		"sound": "wood"
+	},
+	"kado:spruce_planks_vertical_slab": {
+		"sound": "wood"
+	},
+	"kado:warped_planks_vertical_slab": {
+		"sound": "nether_wood"
+	},
+	"kado:prismarine_brick_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:dark_prismarine_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:prismarine_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:purpur_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:quartz_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:smooth_quartz_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:red_netherbrick_vertical_slab": {
+		"sound": "nether_brick"
+	},
+	"kado:cut_red_sandstone_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:red_sandstone_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:smooth_red_sandstone_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:cut_sandstone_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:sandstone_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:smooth_sandstone_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:smooth_stone_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:stone_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:mossy_stone_brick_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:stone_brick_vertical_slab": {
+		"sound": "nether_brick"
+	},
+	"kado:polished_tuff_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:tuff_vertical_slab": {
+		"sound": "stone"
+	},
+	"kado:tuff_brick_vertical_slab": {
+		"sound": "nether_brick"
+	}
+}

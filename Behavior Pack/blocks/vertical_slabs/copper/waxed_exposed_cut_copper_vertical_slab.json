@@ -1,0 +1,123 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "kado:waxed_exposed_cut_copper_vertical_slab",
+			"menu_category": {
+				"category": "construction"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"],
+					"y_rotation_offset": 180
+				}
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.kado.vertical_slab",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "waxed_exposed_cut_copper_vertical_slab_side",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "waxed_exposed_cut_copper_vertical_slab_top",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "waxed_exposed_cut_copper_vertical_slab_top",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:item_visual": {
+				"geometry": "geometry.kado.vertical_slab",
+				"material_instances": {
+					"*": {
+						"texture": "diamond_block",
+						"render_method": "opaque"
+					},
+					"up": {
+						"texture": "waxed_exposed_cut_copper_double1",
+						"render_method": "opaque"
+					},
+					"down": {
+						"texture": "waxed_exposed_cut_copper_double1",
+						"render_method": "opaque"
+					},
+					"north": {
+						"texture": "waxed_exposed_cut_copper",
+						"render_method": "opaque"
+					},
+					"east": {
+						"texture": "waxed_exposed_cut_copper_double2",
+						"render_method": "opaque"
+					},
+					"south": {
+						"texture": "waxed_exposed_cut_copper",
+						"render_method": "opaque"
+					},
+					"west": {
+						"texture": "waxed_exposed_cut_copper_double2",
+						"render_method": "opaque"
+					}
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8, 0, 0],
+				"size": [16, 16, 8]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8, 0, 0],
+				"size": [16, 16, 8]
+			},
+			"minecraft:light_dampening": 0,
+			"tag:minecraft:is_pickaxe_item_destructible": {},
+			"tag:minecraft:iron_tier_destructible": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 15,
+				"item_specific_speeds": [
+					{ "item": "wooden_pickaxe", "destroy_speed": 7.5 },
+					{ "item": "stone_pickaxe", "destroy_speed": 1.15 },
+					{ "item": "iron_pickaxe", "destroy_speed": 0.75 },
+					{ "item": "diamond_pickaxe", "destroy_speed": 0.6 },
+					{ "item": "netherite_pickaxe", "destroy_speed": 0.5 },
+					{ "item": "golden_pickaxe", "destroy_speed": 1.25 }
+				]
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [{ "can_contain_liquid": true }]
+			},
+			"minecraft:tick": {
+				"interval_range": [2000, 3500],
+				"looping": true
+			},
+			"minecraft:custom_components": ["kado:copper_behavior"]
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": { "rotation": [0, 0, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": { "rotation": [0, 90, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": { "rotation": [0, 180, 0] }
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": { "rotation": [0, -90, 0] }
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "kado:exposed_cut_copper_vertical_slab_to_blocks"
+		},
+		"tags": ["crafting_table"],
+		"priority": 1,
+		"pattern": ["#", "#"],
+		"key": {
+			"#": {
+				"item": "kado:exposed_cut_copper_vertical_slab"
+			}
+		},
+		"result": { "item": "minecraft:exposed_cut_copper" },
+		"group": "vertical_slabs_to_blocks"
+	}
+}

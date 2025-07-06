@@ -1,0 +1,16 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "kado:stonecutter_polished_deepslate_vertical_slab"
+		},
+		"tags": ["stonecutter"],
+		"priority": 0,
+		"ingredients": [{ "item": "minecraft:polished_deepslate" }],
+		"result": {
+			"item": "kado:polished_deepslate_vertical_slab",
+			"count": 2
+		},
+		"group": "vertical_slabs"
+	}
+}

@@ -1,0 +1,404 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"acacia_planks_vertical_slab_side": {
+			"textures": "textures/blocks/acacia_planks"
+		},
+		"acacia_planks_vertical_slab_top": {
+			"textures": "textures/blocks/acacia_planks"
+		},
+		"andesite_vertical_slab_side": {
+			"textures": "textures/blocks/stone_andesite"
+		},
+		"andesite_vertical_slab_top": {
+			"textures": "textures/blocks/stone_andesite"
+		},
+		"bamboo_mosaic_vertical_slab_side": {
+			"textures": "textures/blocks/bamboo_mosaic"
+		},
+		"bamboo_mosaic_vertical_slab_top": {
+			"textures": "textures/blocks/bamboo_mosaic"
+		},
+		"bamboo_planks_vertical_slab_side": {
+			"textures": "textures/blocks/bamboo_planks"
+		},
+		"bamboo_planks_vertical_slab_top": {
+			"textures": "textures/blocks/bamboo_planks"
+		},
+		"birch_planks_vertical_slab_side": {
+			"textures": "textures/blocks/birch_planks"
+		},
+		"birch_planks_vertical_slab_top": {
+			"textures": "textures/blocks/birch_planks"
+		},
+		"blackstone_vertical_slab_side": {
+			"textures": "textures/blocks/blackstone"
+		},
+		"blackstone_vertical_slab_top": {
+			"textures": "textures/blocks/blackstone_top"
+		},
+		"brick_vertical_slab_side": {
+			"textures": "textures/blocks/brick"
+		},
+		"brick_vertical_slab_top": {
+			"textures": "textures/blocks/brick"
+		},
+		"cherry_planks_vertical_slab_side": {
+			"textures": "textures/blocks/cherry_planks"
+		},
+		"cherry_planks_vertical_slab_top": {
+			"textures": "textures/blocks/cherry_planks"
+		},
+		"cobbled_deepslate_vertical_slab_side": {
+			"textures": "textures/blocks/deepslate/cobbled_deepslate"
+		},
+		"cobbled_deepslate_vertical_slab_top": {
+			"textures": "textures/blocks/deepslate/cobbled_deepslate"
+		},
+		"cobblestone_vertical_slab_side": {
+			"textures": "textures/blocks/cobblestone"
+		},
+		"cobblestone_vertical_slab_top": {
+			"textures": "textures/blocks/cobblestone"
+		},
+		"crimson_planks_vertical_slab_side": {
+			"textures": "textures/blocks/huge_fungus/crimson_planks"
+		},
+		"crimson_planks_vertical_slab_top": {
+			"textures": "textures/blocks/huge_fungus/crimson_planks"
+		},
+		"cut_red_sandstone_vertical_slab_side": {
+			"textures": "textures/blocks/red_sandstone_smooth"
+		},
+		"cut_red_sandstone_vertical_slab_top": {
+			"textures": "textures/blocks/red_sandstone_top"
+		},
+		"cut_sandstone_vertical_slab_side": {
+			"textures": "textures/blocks/sandstone_smooth"
+		},
+		"cut_sandstone_vertical_slab_top": {
+			"textures": "textures/blocks/sandstone_top"
+		},
+		"dark_oak_planks_vertical_slab_side": {
+			"textures": "textures/blocks/dark_oak_planks"
+		},
+		"dark_oak_planks_vertical_slab_top": {
+			"textures": "textures/blocks/dark_oak_planks"
+		},
+		"dark_prismarine_vertical_slab_side": {
+			"textures": "textures/blocks/prismarine_dark"
+		},
+		"dark_prismarine_vertical_slab_top": {
+			"textures": "textures/blocks/prismarine_dark"
+		},
+		"deepslate_brick_vertical_slab_side": {
+			"textures": "textures/blocks/deepslate/deepslate_bricks"
+		},
+		"deepslate_brick_vertical_slab_top": {
+			"textures": "textures/blocks/deepslate/deepslate_bricks"
+		},
+		"deepslate_tiles_vertical_slab_side": {
+			"textures": "textures/blocks/deepslate/deepslate_tiles"
+		},
+		"deepslate_tiles_vertical_slab_top": {
+			"textures": "textures/blocks/deepslate/deepslate_tiles"
+		},
+		"diorite_vertical_slab_side": {
+			"textures": "textures/blocks/stone_diorite"
+		},
+		"diorite_vertical_slab_top": {
+			"textures": "textures/blocks/stone_diorite"
+		},
+		"end_brick_vertical_slab_side": {
+			"textures": "textures/blocks/end_bricks"
+		},
+		"end_brick_vertical_slab_top": {
+			"textures": "textures/blocks/end_bricks"
+		},
+		"granite_vertical_slab_side": {
+			"textures": "textures/blocks/stone_granite"
+		},
+		"granite_vertical_slab_top": {
+			"textures": "textures/blocks/stone_granite"
+		},
+		"jungle_planks_vertical_slab_side": {
+			"textures": "textures/blocks/jungle_planks"
+		},
+		"jungle_planks_vertical_slab_top": {
+			"textures": "textures/blocks/jungle_planks"
+		},
+		"mangrove_planks_vertical_slab_side": {
+			"textures": "textures/blocks/mangrove_planks"
+		},
+		"mangrove_planks_vertical_slab_top": {
+			"textures": "textures/blocks/mangrove_planks"
+		},
+		"mossy_cobblestone_vertical_slab_side": {
+			"textures": "textures/blocks/cobblestone_mossy"
+		},
+		"mossy_cobblestone_vertical_slab_top": {
+			"textures": "textures/blocks/cobblestone_mossy"
+		},
+		"mossy_stone_brick_vertical_slab_side": {
+			"textures": "textures/blocks/stonebrick_mossy"
+		},
+		"mossy_stone_brick_vertical_slab_top": {
+			"textures": "textures/blocks/stonebrick_mossy"
+		},
+		"mud_brick_vertical_slab_side": {
+			"textures": "textures/blocks/mud_bricks"
+		},
+		"mud_brick_vertical_slab_top": {
+			"textures": "textures/blocks/mud_bricks"
+		},
+		"netherbrick_vertical_slab_side": {
+			"textures": "textures/blocks/nether_brick"
+		},
+		"netherbrick_vertical_slab_top": {
+			"textures": "textures/blocks/nether_brick"
+		},
+		"oak_planks_vertical_slab_side": {
+			"textures": "textures/blocks/oak_planks"
+		},
+		"oak_planks_vertical_slab_top": {
+			"textures": "textures/blocks/oak_planks"
+		},
+		"pale_oak_planks_vertical_slab_side": {
+			"textures": "textures/blocks/pale_oak_planks"
+		},
+		"pale_oak_planks_vertical_slab_top": {
+			"textures": "textures/blocks/pale_oak_planks"
+		},
+		"polished_andesite_vertical_slab_side": {
+			"textures": "textures/blocks/stone_andesite_smooth"
+		},
+		"polished_andesite_vertical_slab_top": {
+			"textures": "textures/blocks/stone_andesite_smooth"
+		},
+		"polished_blackstone_brick_vertical_slab_side": {
+			"textures": "textures/blocks/polished_blackstone_bricks"
+		},
+		"polished_blackstone_brick_vertical_slab_top": {
+			"textures": "textures/blocks/polished_blackstone_bricks"
+		},
+		"polished_blackstone_vertical_slab_side": {
+			"textures": "textures/blocks/polished_blackstone"
+		},
+		"polished_blackstone_vertical_slab_top": {
+			"textures": "textures/blocks/polished_blackstone"
+		},
+		"polished_deepslate_vertical_slab_side": {
+			"textures": "textures/blocks/deepslate/polished_deepslate"
+		},
+		"polished_deepslate_vertical_slab_top": {
+			"textures": "textures/blocks/deepslate/polished_deepslate"
+		},
+		"polished_diorite_vertical_slab_side": {
+			"textures": "textures/blocks/stone_diorite_smooth"
+		},
+		"polished_diorite_vertical_slab_top": {
+			"textures": "textures/blocks/stone_diorite_smooth"
+		},
+		"polished_granite_vertical_slab_side": {
+			"textures": "textures/blocks/stone_granite_smooth"
+		},
+		"polished_granite_vertical_slab_top": {
+			"textures": "textures/blocks/stone_granite_smooth"
+		},
+		"polished_tuff_vertical_slab_side": {
+			"textures": "textures/blocks/polished_tuff"
+		},
+		"polished_tuff_vertical_slab_top": {
+			"textures": "textures/blocks/polished_tuff"
+		},
+		"prismarine_brick_vertical_slab_side": {
+			"textures": "textures/blocks/prismarine_bricks"
+		},
+		"prismarine_brick_vertical_slab_top": {
+			"textures": "textures/blocks/prismarine_bricks"
+		},
+		"prismarine_vertical_slab_side": {
+			"textures": "textures/blocks/prismarine_rough"
+		},
+		"prismarine_vertical_slab_top": {
+			"textures": "textures/blocks/prismarine_rough"
+		},
+		"purpur_vertical_slab_side": {
+			"textures": "textures/blocks/purpur_block"
+		},
+		"purpur_vertical_slab_top": {
+			"textures": "textures/blocks/purpur_block"
+		},
+		"quartz_vertical_slab_side": {
+			"textures": "textures/blocks/quartz_block_side"
+		},
+		"quartz_vertical_slab_top": {
+			"textures": "textures/blocks/quartz_block_top"
+		},
+		"red_netherbrick_vertical_slab_side": {
+			"textures": "textures/blocks/red_nether_brick"
+		},
+		"red_netherbrick_vertical_slab_top": {
+			"textures": "textures/blocks/red_nether_brick"
+		},
+		"red_sandstone_vertical_slab_side": {
+			"textures": "textures/blocks/red_sandstone_normal"
+		},
+		"red_sandstone_vertical_slab_top": {
+			"textures": "textures/blocks/red_sandstone_top"
+		},
+		"sandstone_vertical_slab_side": {
+			"textures": "textures/blocks/sandstone_normal"
+		},
+		"sandstone_vertical_slab_top": {
+			"textures": "textures/blocks/sandstone_top"
+		},
+		"smooth_quartz_vertical_slab_side": {
+			"textures": "textures/blocks/quartz_block_bottom"
+		},
+		"smooth_quartz_vertical_slab_top": {
+			"textures": "textures/blocks/quartz_block_bottom"
+		},
+		"smooth_red_sandstone_vertical_slab_side": {
+			"textures": "textures/blocks/red_sandstone_top"
+		},
+		"smooth_red_sandstone_vertical_slab_top": {
+			"textures": "textures/blocks/red_sandstone_top"
+		},
+		"smooth_sandstone_vertical_slab_side": {
+			"textures": "textures/blocks/sandstone_top"
+		},
+		"smooth_sandstone_vertical_slab_top": {
+			"textures": "textures/blocks/sandstone_top"
+		},
+		"smooth_stone_vertical_slab_side": {
+			"textures": "textures/blocks/stone_slab_top"
+		},
+		"smooth_stone_vertical_slab_top": {
+			"textures": "textures/blocks/stone_slab_side"
+		},
+		"spruce_planks_vertical_slab_side": {
+			"textures": "textures/blocks/spruce_planks"
+		},
+		"spruce_planks_vertical_slab_top": {
+			"textures": "textures/blocks/spruce_planks"
+		},
+		"stone_vertical_slab_side": {
+			"textures": "textures/blocks/stone"
+		},
+		"stone_vertical_slab_top": {
+			"textures": "textures/blocks/stone"
+		},
+		"stone_brick_vertical_slab_side": {
+			"textures": "textures/blocks/stonebrick"
+		},
+		"stone_brick_vertical_slab_top": {
+			"textures": "textures/blocks/stonebrick"
+		},
+		"tuff_brick_vertical_slab_side": {
+			"textures": "textures/blocks/tuff_bricks"
+		},
+		"tuff_brick_vertical_slab_top": {
+			"textures": "textures/blocks/tuff_bricks"
+		},
+		"tuff_vertical_slab_side": {
+			"textures": "textures/blocks/tuff"
+		},
+		"tuff_vertical_slab_top": {
+			"textures": "textures/blocks/tuff"
+		},
+		"warped_planks_vertical_slab_side": {
+			"textures": "textures/blocks/huge_fungus/warped_planks"
+		},
+		"warped_planks_vertical_slab_top": {
+			"textures": "textures/blocks/huge_fungus/warped_planks"
+		},
+		"cut_copper_vertical_slab_side": {
+			"textures": "textures/blocks/cut_copper"
+		},
+		"cut_copper_vertical_slab_top": {
+			"textures": "textures/blocks/cut_copper"
+		},
+		"exposed_cut_copper_vertical_slab_side": {
+			"textures": "textures/blocks/exposed_cut_copper"
+		},
+		"exposed_cut_copper_vertical_slab_top": {
+			"textures": "textures/blocks/exposed_cut_copper"
+		},
+		"oxidized_cut_copper_vertical_slab_side": {
+			"textures": "textures/blocks/oxidized_cut_copper"
+		},
+		"oxidized_cut_copper_vertical_slab_top": {
+			"textures": "textures/blocks/oxidized_cut_copper"
+		},
+		"waxed_cut_copper": {
+			"textures": "textures/blocks/carried/waxed_cut_copper"
+		},
+		"waxed_cut_copper_double1": {
+			"textures": "textures/blocks/carried/waxed_cut_copper_double1"
+		},
+		"waxed_cut_copper_double2": {
+			"textures": "textures/blocks/carried/waxed_cut_copper_double2"
+		},
+		"waxed_cut_copper_vertical_slab_side": {
+			"textures": "textures/blocks/cut_copper"
+		},
+		"waxed_cut_copper_vertical_slab_top": {
+			"textures": "textures/blocks/cut_copper"
+		},
+		"waxed_exposed_cut_copper": {
+			"textures": "textures/blocks/carried/waxed_exposed_cut_copper"
+		},
+		"waxed_exposed_cut_copper_double1": {
+			"textures": "textures/blocks/carried/waxed_exposed_cut_copper_double1"
+		},
+		"waxed_exposed_cut_copper_double2": {
+			"textures": "textures/blocks/carried/waxed_exposed_cut_copper_double2"
+		},
+		"waxed_exposed_cut_copper_vertical_slab_side": {
+			"textures": "textures/blocks/exposed_cut_copper"
+		},
+		"waxed_exposed_cut_copper_vertical_slab_top": {
+			"textures": "textures/blocks/exposed_cut_copper"
+		},
+		"waxed_oxidized_cut_copper": {
+			"textures": "textures/blocks/carried/waxed_oxidized_cut_copper"
+		},
+		"waxed_oxidized_cut_copper_double1": {
+			"textures": "textures/blocks/carried/waxed_oxidized_cut_copper_double1"
+		},
+		"waxed_oxidized_cut_copper_double2": {
+			"textures": "textures/blocks/carried/waxed_oxidized_cut_copper_double2"
+		},
+		"waxed_oxidized_cut_copper_vertical_slab_side": {
+			"textures": "textures/blocks/oxidized_cut_copper"
+		},
+		"waxed_oxidized_cut_copper_vertical_slab_top": {
+			"textures": "textures/blocks/oxidized_cut_copper"
+		},
+		"waxed_weathered_cut_copper": {
+			"textures": "textures/blocks/carried/waxed_weathered_cut_copper"
+		},
+		"waxed_weathered_cut_copper_double1": {
+			"textures": "textures/blocks/carried/waxed_weathered_cut_copper_double1"
+		},
+		"waxed_weathered_cut_copper_double2": {
+			"textures": "textures/blocks/carried/waxed_weathered_cut_copper_double2"
+		},
+		"waxed_weathered_cut_copper_vertical_slab_side": {
+			"textures": "textures/blocks/weathered_cut_copper"
+		},
+		"waxed_weathered_cut_copper_vertical_slab_top": {
+			"textures": "textures/blocks/weathered_cut_copper"
+		},
+		"weathered_cut_copper_vertical_slab_side": {
+			"textures": "textures/blocks/weathered_cut_copper"
+		},
+		"weathered_cut_copper_vertical_slab_top": {
+			"textures": "textures/blocks/weathered_cut_copper"
+		}
+	}
+}
