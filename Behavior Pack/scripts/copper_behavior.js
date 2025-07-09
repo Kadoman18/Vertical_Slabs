@@ -36,7 +36,7 @@ const unwaxMap = {
 const axeIds = [
   "minecraft:wooden_axe",
   "minecraft:stone_axe",
-  //"minecraft:copper_axe",  - Fall Game Drop -
+  // "minecraft:copper_axe",  - Fall Game Drop -
   "minecraft:iron_axe",
   "minecraft:diamond_axe",
   "minecraft:netherite_axe",
