@@ -4,7 +4,6 @@ import {
   BlockPermutation,
   ItemStack,
   MolangVariableMap,
-  ItemDurabilityComponent,
 } from "@minecraft/server";
 // Oxidization Map
 const oxidizeMap = {
@@ -43,30 +42,30 @@ const axeIds = [
   "minecraft:golden_axe",
 ];
 // Reduce Axe Durability Accounting for Unbreaking Enchantment
+// NOT WORKING ~~~~~~~
 function damageAxe(item) {
   if (!item || !axeIds.includes(item.typeId)) return;
-  // Get the durability component
-  const durability = item.getComponent("durability");
-  if (!durability) return;
   // Get unbreaking enchantment level
-  let unbreakingLevel = 0;
-  const enchantmentsComp = item.getComponent("enchantments");
-  if (enchantmentsComp) {
-    const unbreaking = enchantmentsComp.enchantments.getEnchantment("minecraft:unbreaking");
-    if (unbreaking) {
-      unbreakingLevel = unbreaking.level;
+  const durability = item.getComponent('minecraft:durability');
+  const enchantable = item.getComponent('minecraft:enchantable');
+  const hasUnbreaking = enchantable.hasEnchantment('minecraft:unbreaking');
+  if (hasUnbreaking) {
+    const unbreaking = enchantable.getEnchantment('minecraft:unbreaking');
+    const unbreakingLevel = unbreaking.level;
+    const damageChance = durability.getDamageChance(unbreakingLevel);
+    console.warn(`\nHas Unbreaking: ${hasUnbreaking}\nLevel: ${unbreakingLevel}\nDamage Chance: ${damageChance}\n~~~~~~~~~~~~~~~~~~~~`)
+      // Calculate chance to consume durability --- NOT WORKING
+    if ((100 / (unbreakingLevel + 1)) < damageChance) {
+      const myAxe = item.clone
+      const newAxe = new ItemStack(myAxe, durability.damage - 1);
+      currentSlot.setItem(newAxe);
+        // If the axe is broken, remove it
+        if (durability.damage >= durability.maxDurability) {
+          currentSlot.setItem();
+        }
+      }
     }
   }
-  // Calculate chance to consume durability
-  const damageChance = 1 / (unbreakingLevel + 1);
-  if (Math.random() < damageChance) {
-    durability.damage++;
-    // If the axe is broken, remove it
-    if (durability.damage >= durability.maxDurability) {
-      item.amount = 0;
-    }
-  }
-}
 // Unified Custom Component Behavior
 const copperBehaviorComponent = {
   // Oxidization Logic (Triggered by minecraft:tick)
@@ -82,7 +81,7 @@ const copperBehaviorComponent = {
   // Interaction Logic
   onPlayerInteract({ block, player }) {
     const currentPlayer = world.getPlayers()[0];
-    const currentPlayerInventory = currentPlayer.getComponent("inventory");
+    const currentPlayerInventory = currentPlayer.getComponent('inventory');
     const currentSlot = currentPlayerInventory.container.getSlot(player.selectedSlotIndex);
     const currentItem = currentSlot.getItem();
     const blockLocation = block.location;
@@ -94,7 +93,7 @@ const copperBehaviorComponent = {
       const currentId = block.typeId;
       const state = block.permutation.getAllStates();
       const isAxe = axeIds.includes(currentItem.typeId);
-      const isHoneycomb = currentItem.typeId === "minecraft:honeycomb";
+      const isHoneycomb = currentItem.typeId === 'minecraft:honeycomb';
       // Waxing Logic
       if (isHoneycomb && waxMap[currentId]) {
         block.setPermutation(BlockPermutation.resolve(waxMap[currentId], state));
@@ -111,21 +110,21 @@ const copperBehaviorComponent = {
             y: blockLocation.y + Math.random(),
             z: blockLocation.z + Math.random(),
           };
-          player.spawnParticle("minecraft:wax_particle", particleLocation, waxOnParticleColor);
+          player.spawnParticle('minecraft:wax_particle', particleLocation, waxOnParticleColor);
         };
         return;
       };
       // Un-Waxing Logic
       if (isAxe && unwaxMap[currentId]) {
         block.setPermutation(BlockPermutation.resolve(unwaxMap[currentId], state));
-        player.playSound("copper.wax.off", { location: player.location });
+        player.playSound('copper.wax.off', { location: player.location });
         for (let i = 0; i < 15; i++) {
           let particleLocation = {
             x: blockLocation.x + Math.random(),
             y: blockLocation.y + Math.random(),
             z: blockLocation.z + Math.random(),
           };
-          player.spawnParticle("minecraft:wax_particle", particleLocation, waxOffParticleColor);
+          player.spawnParticle('minecraft:wax_particle', particleLocation, waxOffParticleColor);
         };
         damageAxe(currentItem);
         return;
@@ -133,14 +132,14 @@ const copperBehaviorComponent = {
       // De-Oxidization Logic
       if (isAxe && deoxidizeMap[currentId]) {
         block.setPermutation(BlockPermutation.resolve(deoxidizeMap[currentId], state));
-        player.playSound("copper.wax.off", { location: player.location });
+        player.playSound('copper.wax.off', { location: player.location });
         for (let i = 0; i < 15; i++) {
           let particleLocation = {
             x: blockLocation.x + Math.random(),
             y: blockLocation.y + Math.random(),
             z: blockLocation.z + Math.random(),
           };
-          player.spawnParticle("minecraft:wax_particle", particleLocation, waxOffParticleColor);
+          player.spawnParticle('minecraft:wax_particle', particleLocation, waxOffParticleColor);
         };
         damageAxe(currentItem);
         return;
@@ -150,5 +149,5 @@ const copperBehaviorComponent = {
 };
 // Component Registration
 system.beforeEvents.startup.subscribe(({ blockComponentRegistry }) => {
-  blockComponentRegistry.registerCustomComponent("kado:copper_behavior", copperBehaviorComponent);
+  blockComponentRegistry.registerCustomComponent('kado:copper_behavior', copperBehaviorComponent);
 });
